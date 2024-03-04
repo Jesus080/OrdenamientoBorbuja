@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenamiento por Burbuja</title>
+</head>
+<body>
+ <script src="js/ordenBorbuja.js"></script>
+ <link rel="stylesheet" href="css/style.css">
+  <h2>Ordenamiento por Burbuja</h2>
+  <h3>Introduce números separados por comas:</h3>
+  <input type="text" id="inputNumbers" placeholder="Ejemplo: 5,2,8,1,4">
+
+  <h3 for="orderType">Orden:</h3>
+  <select id="orderType">
+    <option value="noSelec">Seleccione Orden</option>
+    <option value="asc">Ascendente</option>
+    <option value="desc">Descendente</option>
+  </select>
+
+  <button onclick="bubble()">Ordenar</button>
+
+  <p id="result"></p>
+</body>
+</html>
